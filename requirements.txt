@@ -1,0 +1,6 @@
+numpy==1.26.3
+pandas==2.1.4
+streamlit
+pickle
+scikit-learn
+pip==24.0
