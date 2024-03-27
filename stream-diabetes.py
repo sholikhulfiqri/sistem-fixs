@@ -8,7 +8,8 @@ diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 def simpan_hasil_ke_database(age, gender, bmi, sbp, dbp, fpg, chol, ffpg, hasil_klasifikasi):
     try:
         conn = mysql.connector.connect(
-            host="localhost:3306",
+            host="localhost",
+            port=3306,
             user="root",
             password="",
             database="Diabetes"
