@@ -9,7 +9,6 @@ def simpan_hasil_ke_database(age, gender, bmi, sbp, dbp, fpg, chol, ffpg, hasil_
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            port=8501,
             user="root",
             password="",
             database="Diabetes"
