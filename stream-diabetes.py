@@ -12,7 +12,6 @@ def simpan_hasil_ke_database(age, gender, bmi, sbp, dbp, fpg, chol, ffpg, hasil_
             user="root",
             password="",
             database="Diabetes"
-            port=3306
         )
         cursor = conn.cursor()
 
